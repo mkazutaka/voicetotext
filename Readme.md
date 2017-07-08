@@ -22,6 +22,12 @@ gcloud auth login
 gcloud alpha projects create voicetotext-123456 --name voice2text
 ```
 
+If you create projects already, you set project instead create.
+
+```
+gcloud config set project <PROJECT ID>
+```
+
 3. Go to Projects URL and enable Google Speech API.
 4. Please Enable [Billing](https://support.google.com/cloud/answer/6293499?hl=en).
 5. Create Service Key and Downlaod (Ref:[Service Acount](https://cloud.google.com/storage/docs/authentication#generating-a-private-key).)
