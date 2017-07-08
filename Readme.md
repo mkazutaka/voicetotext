@@ -1,10 +1,10 @@
-# Voice2Text
+# voicetotext
 
-Voice2Text is transcript media file to txt file to use Google Speach API & 
+voicetotext is transcript media file to text using Google Cloud Speech API. 
 
 ## Installation
 
-Voice2Text need GOOGLE_APPLICATION_CREDENTIALS files.
+voicetotext needs GOOGLE_APPLICATION_CREDENTIALS files.
 if you don't have this, please build google cloud projects and get from it.
 
 #### Gcloud Project build
@@ -23,7 +23,7 @@ gcloud alpha projects create voicetotext-123456 --name voice2text
 ```
 
 3. Go to Projects URL and enable Google Speech API.
-4. Please Enable (Billing)[https://support.google.com/cloud/answer/6293499?hl=en].
+4. Please Enable [Billing](https://support.google.com/cloud/answer/6293499?hl=en).
 5. Create Service Key and Downlaod (Ref:[Service Acount](https://cloud.google.com/storage/docs/authentication#generating-a-private-key).)
 5. set GOOGLE_APPLICATION_CREDENTIALS
 
@@ -85,7 +85,7 @@ You need to examine the sample rate.
 I recommend ffprove to examine.
 
 ```
-$ ffmprove results/000.flac
+$ ffprove results/000.flac
 Input #0, flac, from 'results/000.flac':
   Metadata:
     ENCODER         : Lavf57.56.101
